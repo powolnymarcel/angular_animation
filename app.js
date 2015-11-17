@@ -44,15 +44,18 @@ app.config(function($stateProvider, $urlRouterProvider) {
 // CONTROLLERS ============================================
 // home page controller
 app.controller('accueilController', function($scope) {
+	//Bind au scope pageClass, ainsi dans la vue on a une class qui prend la valeur de pageClass
 	$scope.pageClass = 'page-accueil';
 });
 
 // about page controller
 app.controller('aproposController', function($scope) {
+	//Bind au scope pageClass, ainsi dans la vue on a une class qui prend la valeur de pageClass
 	$scope.pageClass = 'page-a-propos';
 });
 
 // contact page controller
 app.controller('contactController', function($scope) {
+	//Bind au scope pageClass, ainsi dans la vue on a une class qui prend la valeur de pageClass
 	$scope.pageClass = 'page-contact';
 });
