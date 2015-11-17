@@ -1,7 +1,7 @@
 /* BASE STYLES
 ============================================================================= */
 html         { overflow-y:hidden; }
-.container{
+.containere{
 	margin: 0 auto;
 	width: 100%;
 }
@@ -21,7 +21,7 @@ html         { overflow-y:hidden; }
 /* PAGES
 ============================================================================= */
 .page-accueil 		{ background:#00D0BC; color:#00907c; }
-.page-about 	{ background:#E59400; color:#a55400; }
+.page-a-propos 	{ background:#E59400; color:#a55400; }
 .page-contact 	{ background:#ffa6bb; color:#9e0000; }
 
 /* ANIMATIONS
@@ -48,12 +48,12 @@ html         { overflow-y:hidden; }
 }
 
 /* about ------------------------ */
-.page-about.ng-leave        {
+.page-a-propos.ng-leave        {
 	-webkit-animation:slideOutLeft 0.5s both ease-in;
 	-moz-animation:slideOutLeft 0.5s both ease-in;
 	animation:slideOutLeft 0.5s both ease-in;
 }
-.page-about.ng-enter 		{
+.page-a-propos.ng-enter 		{
 	-webkit-animation:slideInRight 0.5s both ease-in;
 	-moz-animation:slideInRight 0.5s both ease-in;
 	animation:slideInRight 0.5s both ease-in;
