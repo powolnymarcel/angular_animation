@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/lib/bootstrap/dist/css/bdfdfootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 
 	<!-- JS -->
@@ -17,11 +17,12 @@
 </head>
 
 <!-- apply our angular app -->
-<body ng-app="animateApp">
+<body ng-app="animateApp" class="container">
 
+</div>
 <!-- inject our views using ng-view -->
 <!-- each angular controller applies a different class here -->
-<div class="page {{ pageClass }}" ng-view></div>
+<div  class="page {{ pageClass }}" ui-view></div>
 
 </body>
 </html>
